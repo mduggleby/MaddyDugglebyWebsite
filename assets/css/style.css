@@ -154,6 +154,32 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+# Curricular
+--------------------------------------------------------------*/
+
+#curricular {
+  background-color: rgba(255, 255, 255, 0.5); /* Blue background */
+  color: white; /* Makes text readable against blue */
+  padding: 40px 20px; /* Adds spacing inside the section */
+  border-radius: 8px; /* Optional: smooth corners */
+}
+
+#curricular .icon-box {
+  background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent box background */
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+#curricular .icon-box h4 a {
+  color: #ffdd57; /* Highlight course titles */
+}
+
+#curricular .icon-box h4 a:hover {
+  color: #ffe680; /* Slightly brighter hover effect */
+}
+
+/*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Desktop Navigation */
@@ -691,10 +717,6 @@ section {
 
 .portfolio-details .portfolio-description p {
   padding: 0;
-}
-
-.curricular .container {
-  background:rgba(255, 255, 255, 0.5)
 }
 
 /*--------------------------------------------------------------
